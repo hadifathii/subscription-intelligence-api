@@ -1,0 +1,13 @@
+{
+  "name": "subscription-intel-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "@subscription-protocol/sdk": "^0.3.0",
+    "dotenv": "^16.4.0"
+  }
+}
